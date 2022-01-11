@@ -1,13 +1,78 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App{
+  
+  height: 100vh;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.twitter{
+  display:flex;
+  flex-direction: column;
+}
+
+.twitter svg{
+  color: #399bf0;
+  width: 50px;
+  min-width: 50px;
+  height: 36px;
+  
+}
+.twitter .secondSvg{
+  color: #0f1419;
+  width: 40px;
+  height: 35px;
+}
+
+.tweet-button{
+  
+  color: #ffffff;
+  background-color : #399bf0;
+  font-size:17px;
+  font-weight: bold;
+  width: 250px;
+  height:50px;
+  border-radius:30px;
+  border:none;
+}
+
+.profile-button{
+  margin-top: 50px;
+  color: #000000;
+  background-color : #399bf0;
+  font-size:17px;
+
+  width: 250px;
+  height:50px;
+  border-radius:30px;
+  border:none;
+}
+
+.content{
+
+  display: flex;
+  flex-direction: row;
+}
+.left-section{
+
+  width: 20%
+}
+.middle-section{
+  border-left: 1px  solid #eff3f4;
+  border-right: 1px  solid #eff3f4;
+  width:50%;
+}
+
+.right-section{
+  
+  width:30%;
+
+}
+
+#search-twitter{
+  border:none;
+  width: 300px;
+  height: 35px;
+  border-radius: 25px;
+  color: #536471;
+  background-color: #eff3f4;
+  font-size: 15px;
 }
